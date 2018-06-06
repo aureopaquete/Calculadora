@@ -14,11 +14,13 @@ public class BDCalculadora extends SQLiteOpenHelper {
     }
 
     @Override
+    // Aqui serve para criar as tabaleas da base de dados
     public void onCreate(SQLiteDatabase db) {
 
     }
 
     @Override
+    //Aqui serve para atualizar as tabelas da base de dados
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 
     }
