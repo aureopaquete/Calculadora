@@ -72,7 +72,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/ce2"
+                    android:id="@+id/ButtonViews"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
@@ -94,7 +94,7 @@
                 <Button
                     android:id="@+id/apagar"
                     android:layout_width="wrap_content"
-                    android:layout_height="86dp"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/darker_gray"
                     android:onClick="button_apagar"
@@ -121,7 +121,7 @@
                 <Button
                     android:id="@+id/button2"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="85dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_2"
@@ -168,7 +168,7 @@
                 <Button
                     android:id="@+id/button5"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="85dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_5"
@@ -215,7 +215,7 @@
                 <Button
                     android:id="@+id/button8"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="85dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_8"
@@ -262,7 +262,7 @@
                 <Button
                     android:id="@+id/ponto"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="85dp"
                     android:layout_weight="1"
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_ponto"

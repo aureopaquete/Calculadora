@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     //São os botões
     Button button1, button2, button3, button4, button5, button6,
             button7, button8, button9, button0, ponto, dividir, mais,
-            multiplicar, apagar, ce, buttonmenos, igual,Vizualizar;
+            multiplicar, apagar, ce, buttonmenos, ButtonViews , igual;
     // São as TextView
     TextView text1,text2,text3;
 
@@ -34,12 +34,12 @@ public class MainActivity extends AppCompatActivity {
         button9 = (Button) findViewById(R.id.button9);
         button0 = (Button) findViewById(R.id.button0);
         ponto = (Button) findViewById(R.id.ponto);
+        ButtonViews = (Button) findViewById(R.id.ButtonViews);
         dividir = (Button) findViewById(R.id.dividir);
         multiplicar = (Button) findViewById(R.id.multiplicar);
         mais = (Button) findViewById(R.id.mais);
         apagar = (Button) findViewById(R.id.apagar);
         ce = (Button) findViewById(R.id.ce);
-        Vizualizar = (Button) findViewById(R.id.Vizualizar);
         igual = (Button) findViewById(R.id.igual);
         buttonmenos = (Button) findViewById(R.id.buttonmenos);
         text1 = (TextView) findViewById(R.id.text1);
@@ -151,6 +151,10 @@ public class MainActivity extends AppCompatActivity {
     public void button_ponto(View c) {
     }
     public void button_ce(View c) {
+        bool = false;
+            text1.setText("");
+            text2.setText("");
+            text3.setText("");
     }
     public void button_menos(View c) {
     }
