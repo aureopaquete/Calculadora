@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     //São os botões
     Button button1, button2, button3, button4, button5, button6,
             button7, button8, button9, button0, ponto, dividir, mais,
-            multiplicar, apagar, ce, buttonmenos, igual;
+            multiplicar, apagar, ce, buttonmenos, igual,Vizualizar;
     // São as TextView
     TextView text1,text2,text3;
 
@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mais = (Button) findViewById(R.id.mais);
         apagar = (Button) findViewById(R.id.apagar);
         ce = (Button) findViewById(R.id.ce);
+        Vizualizar = (Button) findViewById(R.id.Vizualizar);
         igual = (Button) findViewById(R.id.igual);
         buttonmenos = (Button) findViewById(R.id.buttonmenos);
         text1 = (TextView) findViewById(R.id.text1);
@@ -58,27 +59,91 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void button_2(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"2");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"2");
+        }
     }
     public void button_3(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"3");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"3");
+        }
     }
     public void button_4(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"4");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"4");
+        }
     }
     public void button_5(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"5");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"5");
+        }
     }
     public void button_6(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"6");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"6");
+        }
     }
     public void button_7(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"7");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"7");
+        }
     }
     public void button_8(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"8");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"8");
+        }
     }
     public void button_9(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"9");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"9");
+        }
     }
     public void button_0(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+"0");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+"0");
+        }
     }
     public void button_multiplicar(View c) {
     }
     public void button_dividir(View c) {
     }
+
     public void button_mais(View c) {
     }
     public void button_apagar(View c) {
@@ -90,6 +155,8 @@ public class MainActivity extends AppCompatActivity {
     public void button_menos(View c) {
     }
     public void button_igual(View c) {
+    }
+    public void button_Vizualizar(View c) {
     }
 
 
