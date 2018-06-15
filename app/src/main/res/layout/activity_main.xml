@@ -14,7 +14,7 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="800dp"
             android:layout_weight="5"
             android:orientation="horizontal">
 
@@ -31,7 +31,8 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textSize="30sp" />
 
                 <EditText
                     android:id="@+id/text2"
@@ -40,7 +41,8 @@
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:ems="10"
-                    android:inputType="textPersonName" />
+                    android:inputType="textPersonName"
+                    android:textSize="30sp" />
             </LinearLayout>
 
             <LinearLayout
@@ -54,7 +56,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_margin="5dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1"
+                    android:textSize="30sp" />
             </LinearLayout>
 
         </LinearLayout>
@@ -78,8 +81,9 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/colorPrimary"
                     android:onClick="button_ce"
-                    android:text="Ver resultados anteriores "
-                    tools:text="Ver resultados anteriores " />
+                    android:text="Rever"
+                    android:textSize="18sp"
+                    tools:text="Rever" />
 
                 <Button
                     android:id="@+id/ce"
@@ -89,6 +93,7 @@
                     android:backgroundTint="@color/colorPrimary"
                     android:onClick="button_ce"
                     android:text="CE"
+                    android:textSize="18sp"
                     tools:text="CE" />
 
                 <Button
@@ -99,6 +104,7 @@
                     android:backgroundTint="@android:color/darker_gray"
                     android:onClick="button_apagar"
                     android:text="Apagar"
+                    android:textSize="14sp"
                     tools:text="Apagar" />
             </LinearLayout>
 
@@ -116,6 +122,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_1"
                     android:text="1"
+                    android:textSize="30sp"
                     tools:text="1" />
 
                 <Button
@@ -126,6 +133,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_2"
                     android:text="2"
+                    android:textSize="30sp"
                     tools:text="2" />
 
                 <Button
@@ -136,6 +144,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_3"
                     android:text="3"
+                    android:textSize="30sp"
                     tools:text="3" />
 
                 <Button
@@ -146,6 +155,7 @@
                     android:backgroundTint="@android:color/holo_orange_dark"
                     android:onClick="button_dividir"
                     android:text="/"
+                    android:textSize="30sp"
                     tools:text="/" />
             </LinearLayout>
 
@@ -163,6 +173,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_4"
                     android:text="4"
+                    android:textSize="30sp"
                     tools:text="4" />
 
                 <Button
@@ -173,6 +184,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_5"
                     android:text="5"
+                    android:textSize="30sp"
                     tools:text="5" />
 
                 <Button
@@ -183,6 +195,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_6"
                     android:text="6"
+                    android:textSize="30sp"
                     tools:text="6" />
 
                 <Button
@@ -193,6 +206,7 @@
                     android:backgroundTint="@android:color/holo_orange_dark"
                     android:onClick="button_multiplicar"
                     android:text="X"
+                    android:textSize="30sp"
                     tools:text="X" />
             </LinearLayout>
 
@@ -210,6 +224,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_7"
                     android:text="7"
+                    android:textSize="30sp"
                     tools:text="7" />
 
                 <Button
@@ -220,6 +235,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_8"
                     android:text="8"
+                    android:textSize="30sp"
                     tools:text="8" />
 
                 <Button
@@ -230,6 +246,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_9"
                     android:text="9"
+                    android:textSize="30sp"
                     tools:text="9" />
 
                 <Button
@@ -240,6 +257,7 @@
                     android:backgroundTint="@android:color/holo_orange_dark"
                     android:onClick="button_mais"
                     android:text="+"
+                    android:textSize="30sp"
                     tools:text="+" />
             </LinearLayout>
 
@@ -257,6 +275,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_0"
                     android:text="0"
+                    android:textSize="30sp"
                     tools:text="0" />
 
                 <Button
@@ -267,6 +286,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_ponto"
                     android:text="."
+                    android:textSize="30sp"
                     tools:text="." />
 
                 <Button
@@ -276,7 +296,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/holo_green_dark"
                     android:onClick="button_igual"
-                    android:text="=" />
+                    android:text="="
+                    android:textSize="30sp" />
 
                 <Button
                     android:id="@+id/buttonmenos"
@@ -285,7 +306,8 @@
                     android:layout_weight="1"
                     android:backgroundTint="@android:color/holo_orange_dark"
                     android:onClick="button_menos"
-                    android:text="-" />
+                    android:text="-"
+                    android:textSize="40sp" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

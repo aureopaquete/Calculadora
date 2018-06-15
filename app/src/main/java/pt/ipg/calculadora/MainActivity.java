@@ -154,8 +154,36 @@ public class MainActivity extends AppCompatActivity {
         text3.setText("+");
     }
     public void button_apagar(View c) {
-    }
+        if( bool == false) {
+            String str = text1.getText().toString();
+            if (str.length() > 0) {
+               String str_apagar =  str.substring(0, str.length() - 1);
+                text1.setText(str_apagar );
+            } else {
+                text1.setText("");
+            }
+        }else{
+                if (bool == false) {
+                    String str = text2.getText().toString();
+                    if (str.length() > 0) {
+                        String str_apagar =  str.substring(0, str.length() - 1);
+                        text2.setText(str_apagar);
+                    } else {
+                        text2.setText("");
+                    }
+                }
+            }
+        }
+
+
     public void button_ponto(View c) {
+        if( bool == false){
+            String str = text1.getText().toString();
+            text1.setText(str+".");
+        } else {
+            String str = text2.getText().toString();
+            text2.setText(str+".");
+        }
     }
     public void button_ce(View c) {
         bool = false;
