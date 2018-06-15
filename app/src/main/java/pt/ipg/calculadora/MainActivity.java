@@ -140,11 +140,18 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void button_multiplicar(View c) {
+
+        bool = true;
+        text3.setText("*");
     }
     public void button_dividir(View c) {
+        bool = true;
+        text3.setText("/");
     }
 
     public void button_mais(View c) {
+        bool = true;
+        text3.setText("+");
     }
     public void button_apagar(View c) {
     }
@@ -160,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
     }
     public void button_igual(View c) {
     }
-    public void button_Vizualizar(View c) {
+    public void button_Views(View c) {
     }
 
 

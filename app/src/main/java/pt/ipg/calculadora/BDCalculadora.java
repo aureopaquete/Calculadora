@@ -14,7 +14,7 @@ public class BDCalculadora extends SQLiteOpenHelper {
     }
 
     @Override
-    // Aqui serve para criar as tabaleas da base de dados
+    // Aqui serve para criar as tabelas da base de dados
     public void onCreate(SQLiteDatabase db) {
 
     }
