@@ -164,6 +164,9 @@ public class MainActivity extends AppCompatActivity {
             text3.setText("");
     }
     public void button_menos(View c) {
+
+        bool = true;
+        text3.setText("-");
     }
     public void button_igual(View c) {
     }
