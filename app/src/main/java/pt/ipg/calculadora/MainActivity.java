@@ -208,15 +208,21 @@ public class MainActivity extends AppCompatActivity {
     // Códigos referente ao butão ponto
     public void button_ponto(View c) {
         if( bool == false){
-            String str = text1.getText().toString();
-           if(str.contains("."));{
+            String strponto = text1.getText().toString();
+            if(strponto.contains(".")){
 
             }else{
                 String str = text1.getText().toString();
                 text1.setText(str+".");
             }
         } else {
+            String strponto = text2.getText().toString();
+            if(strponto.contains(".")){
 
+             }else{
+                String str = text2.getText().toString();
+                text2.setText(str+".");
+            }
 
         }
     }
