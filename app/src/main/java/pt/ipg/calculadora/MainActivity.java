@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity {
                 text1.setText(str+".");
             }
         } else {
-            String strponto = text1.getText().toString();
+            String strponto = text2.getText().toString();
             if(strponto.contains(".")){
 
             }else{
