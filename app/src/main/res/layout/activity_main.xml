@@ -286,7 +286,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_ponto"
                     android:text="."
-                    android:textSize="30sp"
+                    android:textSize="36sp"
                     tools:text="." />
 
                 <Button
