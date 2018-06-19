@@ -45,9 +45,11 @@ public class MainActivity extends AppCompatActivity {
         text1 = (TextView) findViewById(R.id.text1);
         text2 = (TextView) findViewById(R.id.text2);
         text3 = (TextView) findViewById(R.id.text3);
-        boolean bool = false;
+
     }
     boolean bool = false;
+
+    // Códigos referente ao butão 1
     public void button_1(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -58,6 +60,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+    // Códigos referente ao butão 2
     public void button_2(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -67,6 +70,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"2");
         }
     }
+
+    // Códigos referente ao butão 3
     public void button_3(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -76,6 +81,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"3");
         }
     }
+
+    // Códigos referente ao butão 4
     public void button_4(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -85,6 +92,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"4");
         }
     }
+
+    // Códigos referente ao butão 5
     public void button_5(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -94,6 +103,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"5");
         }
     }
+
+    // Códigos referente ao butão 6
     public void button_6(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -103,6 +114,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"6");
         }
     }
+
+    // Códigos referente ao butão 7
     public void button_7(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -112,6 +125,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"7");
         }
     }
+
+    // Códigos referente ao butão 8
     public void button_8(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -121,6 +136,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"8");
         }
     }
+
+    // Códigos referente ao butão 9
     public void button_9(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -130,6 +147,8 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"9");
         }
     }
+
+    // Códigos referente ao butão 0
     public void button_0(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -139,20 +158,29 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+"0");
         }
     }
+
+    // Códigos referente ao butão multiplicar
     public void button_multiplicar(View c) {
 
         bool = true;
         text3.setText("*");
     }
+
+    // Códigos referente ao butão dividir
     public void button_dividir(View c) {
         bool = true;
         text3.setText("/");
     }
 
+
+    // Códigos referente ao butão mais
     public void button_mais(View c) {
         bool = true;
         text3.setText("+");
     }
+
+
+    // Códigos referente ao butão apagar
     public void button_apagar(View c) {
         if( bool == false) {
             String str = text1.getText().toString();
@@ -176,6 +204,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
+
+    // Códigos referente ao butão ponto
     public void button_ponto(View c) {
         if( bool == false){
             String str = text1.getText().toString();
@@ -185,19 +215,27 @@ public class MainActivity extends AppCompatActivity {
             text2.setText(str+".");
         }
     }
+
+    // Códigos referente ao butão ce
     public void button_ce(View c) {
         bool = false;
             text1.setText("");
             text2.setText("");
             text3.setText("");
     }
+
+    // Códigos referente ao butão menos
     public void button_menos(View c) {
 
         bool = true;
         text3.setText("-");
     }
+
+    // Códigos referente ao butão igual
     public void button_igual(View c) {
     }
+
+    // Códigos referente ao butão view
     public void button_Views(View c) {
     }
 
