@@ -209,12 +209,21 @@ public class MainActivity extends AppCompatActivity {
     public void button_ponto(View c) {
         if( bool == false){
             String str = text1.getText().toString();
-            text1.setText(str+".");
+           if(str.contains("."));{
+
+            }else{
+                String str = text1.getText().toString();
+                text1.setText(str+".");
+            }
         } else {
-            String str = text2.getText().toString();
-            text2.setText(str+".");
+
+
         }
     }
+
+
+
+
 
     // Códigos referente ao butão ce
     public void button_ce(View c) {
