@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:backgroundTint="@android:color/holo_green_light">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -112,6 +113,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/darker_gray"
+                android:backgroundTint="@android:color/darker_gray"
                 android:orientation="horizontal">
 
                 <Button
@@ -163,6 +166,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTint="@android:color/darker_gray"
                 android:orientation="horizontal">
 
                 <Button
@@ -214,6 +219,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/darker_gray"
                 android:orientation="horizontal">
 
                 <Button
@@ -265,6 +271,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
+                android:background="@android:color/darker_gray"
                 android:orientation="horizontal">
 
                 <Button
@@ -286,7 +293,7 @@
                     android:backgroundTint="@color/colorPrimaryDark"
                     android:onClick="button_ponto"
                     android:text="."
-                    android:textSize="36sp"
+                    android:textSize="30sp"
                     tools:text="." />
 
                 <Button
@@ -307,7 +314,8 @@
                     android:backgroundTint="@android:color/holo_orange_dark"
                     android:onClick="button_menos"
                     android:text="-"
-                    android:textSize="40sp" />
+                    android:textSize="30sp" />
+
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
