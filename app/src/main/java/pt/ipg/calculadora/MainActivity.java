@@ -256,6 +256,9 @@ public class MainActivity extends AppCompatActivity {
 
     // Códigos referente ao butão view
     public void button_Views(View c) {
+        bool = true;
+        
+
     }
 
 
