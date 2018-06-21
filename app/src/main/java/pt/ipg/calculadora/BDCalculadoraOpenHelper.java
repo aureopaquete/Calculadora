@@ -8,9 +8,22 @@ import android.database.sqlite.SQLiteOpenHelper;
  * Created by Aureo Paquete on 01/06/2018.
  */
 
-public class BDCalculadora extends SQLiteOpenHelper {
-    public BDCalculadora(Context context, String name, SQLiteDatabase.CursorFactory factory, int version) {
-        super(context, name, factory, version);
+
+
+
+    
+
+
+public class BDCalculadoraOpenHelper extends SQLiteOpenHelper {
+    private static final boolean PRODUCTION = false;
+
+
+    public static final String DATABASE_NAME = "Calculadora.db";
+    private static final int DATABASE_VERSION = 1;
+
+
+    public BDCalculadoraOpenHelper(Context context) {
+        super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
     @Override
@@ -23,11 +36,22 @@ public class BDCalculadora extends SQLiteOpenHelper {
         DbData dbData = new DbData(db);
         dbData.create();
 
+        if (!PRODUCTION) {
+            seed(db);
+        }
     }
+
+    private void seed(SQLiteDatabase db) {
+
+        DbResultados dbResultados = new DbResultados(db);
+    }
+
 
     @Override
     //Aqui serve para atualizar as tabelas da base de dados
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+
+
 
     }
 }
