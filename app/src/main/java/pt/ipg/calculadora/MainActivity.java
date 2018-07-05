@@ -1,10 +1,12 @@
 package pt.ipg.calculadora;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     //São os botões
@@ -253,11 +255,37 @@ public class MainActivity extends AppCompatActivity {
        String text_1 = text1.getText().toString();
        String text_2 = text2.getText().toString();
        String text_3 = text3.getText().toString();
-        if (text_2.length()>1){
-            
+        if (text_2.length()>0){
+            int txt1 = Integer.parseInt((text_1));
+            int txt2 = Integer.parseInt((text_2));
+            if (text_3.contains("*")){
+                int contas = txt1*txt2;
+                String str = Integer.toString(contas);
+                Toast.makeText(MainActivity.this,str, Toast.LENGTH_SHORT).show();
+            }  else if(text_3.contains("/")) {
+                int contas = txt1/txt2;
+                String str = Integer.toString(contas);
+                Toast.makeText(MainActivity.this,str, Toast.LENGTH_SHORT).show();
+        }  else if(text_3.contains("/")) {
+            int contas = txt1/txt2;
+            String str = Integer.toString(contas);
+            Toast.makeText(MainActivity.this,str, Toast.LENGTH_SHORT).show();
+
+        }  else if(text_3.contains("+")) {
+            int contas = txt1+txt2;
+            String str = Integer.toString(contas);
+            Toast.makeText(MainActivity.this,str, Toast.LENGTH_SHORT).show();
+
+        } else if(text_3.contains("-")) {
+            int contas = txt1-txt2;
+            String str = Integer.toString(contas);
+            Toast.makeText(MainActivity.this,str, Toast.LENGTH_SHORT).show();
 
         } else {
-
+            Toast.makeText(MainActivity.this, "Erro", Toast.LENGTH_SHORT).show();
+        }
+    } else {
+            Toast.makeText(MainActivity.this, "txt_1", Toast.LENGTH_SHORT).show();
         }
     }
 
