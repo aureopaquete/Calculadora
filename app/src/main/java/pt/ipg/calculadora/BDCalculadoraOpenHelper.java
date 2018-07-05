@@ -11,7 +11,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 
 
-    
+
 
 
 public class BDCalculadoraOpenHelper extends SQLiteOpenHelper {
@@ -44,6 +44,8 @@ public class BDCalculadoraOpenHelper extends SQLiteOpenHelper {
     private void seed(SQLiteDatabase db) {
 
         DbResultados dbResultados = new DbResultados(db);
+
+
     }
 
 

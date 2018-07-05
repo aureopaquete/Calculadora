@@ -250,8 +250,15 @@ public class MainActivity extends AppCompatActivity {
     // Códigos referente ao butão igual
     public void button_igual(View c) {
 
-        bool = true;
-        text3.setText("=");
+       String text_1 = text1.getText().toString();
+       String text_2 = text2.getText().toString();
+       String text_3 = text3.getText().toString();
+        if (text_2.length()>1){
+            
+
+        } else {
+
+        }
     }
 
     // Códigos referente ao butão view
